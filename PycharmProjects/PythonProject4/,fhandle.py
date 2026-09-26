@@ -37,3 +37,53 @@ for i in range(len(l)):
         smallest=l[i]
 
 print(smallest)
+
+#zeroes at the end
+
+l=[1,2,3,0,1,1,2,0,0]
+result=[]
+zeroes=0
+for i in range(len(l)):
+    if l[i]==0:
+        zeroes+=1
+    else:
+        result.append(l[i])
+
+for i in range(zeroes):
+    result.insert(0,0)
+print(result)
+
+# Print 1, 2, 3, ... 99, 100 using a for loop.
+for i in range(0,101):
+    print(i)
+# Print 0, 2, 4, 6, ... 98, 100 using a for loop.
+for i in range(0,101,2):
+    print(i)
+Swap two numbers:
+Using a temporary variable
+Without using a temporary variable
+
+a=10
+b=20
+
+temp=a#10
+a=b#a,b values 20
+b=temp#10
+print(a)
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
