@@ -1,0 +1,481 @@
+
+
+Python basics revision → Arrays → Strings → Hashing → Two Pointers → Sliding Window
+→ Prefix Sum → Binary Search → Sorting → Recursion → Backtracking → Linked List
+→ Stack → Queue → Trees → Graphs → Dynamic Programming
+
+# **1. Day-wise syllabus and problem list**
+
+## **Phase 1: Arrays – Days 1–7**
+
+Start here
+
+&#x20;Arrays are the foundation for many DSA patterns.
+
+
+
+[7.2: Programming Language Constructs - Engineering LibreTexts](https://images.openai.com/static-rsc-4/xZnOV6-TAqOCbunn1Z6Jr6TQTl5TN0BfKMF7l53w_0irHEViOltKZsGItkDFYv5vxbTpieSUz0uXy49jSTgmu7vJRC64aru0U4NeTfoJ_I-69B2RXcmaFReF3Sk62NBpionRXaNn9oLUdD2EjxN2EkZABsIb87n_MwaST-d_l74?purpose=inline)
+
+[eng.libretexts.org](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Introduction_to_Computer_Science_%28OpenStax%29/07%3A_High-Level_Programming_Languages/7.02%3A_Programming_Language_Constructs?utm_source=chatgpt.com)
+
+| Day | Pattern / Topic     | Programs       |
+| --- | ------------------- | -------------- |
+| 1   | Array Basics        | 1–5            |
+| 2   | Searching           | 6–10           |
+| 3   | Two Pointers        | 11–15          |
+| 4   | Hashing / Frequency | 16–20          |
+| 5   | Prefix Sum          | 21–24          |
+| 6   | Kadane's Algorithm  | 25–27          |
+| 7   | Array Revision      | Mixed problems |
+
+**Complete array problem list**
+
+| No. | Problem                             |
+| --- | ----------------------------------- |
+| 1   | Find Maximum and Minimum            |
+| 2   | Find Second Largest Element         |
+| 3   | Reverse an Array                    |
+| 4   | Sum and Average of Array            |
+| 5   | Check if Array is Sorted            |
+| 6   | Linear Search                       |
+| 7   | Binary Search                       |
+| 8   | Find First and Last Occurrence      |
+| 9   | Count Occurrences of an Element     |
+| 10  | Find Missing Number                 |
+| 11  | Two Sum                             |
+| 12  | Move Zeros to End                   |
+| 13  | Remove Duplicates from Sorted Array |
+| 14  | Rotate Array by K Positions         |
+| 15  | Merge Two Sorted Arrays             |
+| 16  | Find Duplicate Elements             |
+| 17  | Frequency of Each Element           |
+| 18  | Majority Element                    |
+| 19  | Intersection of Two Arrays          |
+| 20  | Union of Two Arrays                 |
+| 21  | Prefix Sum Array                    |
+| 22  | Range Sum Query                     |
+| 23  | Subarray Sum Equals K               |
+| 24  | Equilibrium Index                   |
+| 25  | Maximum Subarray Sum (Kadane's)     |
+| 26  | Maximum Product Subarray            |
+| 27  | Best Time to Buy and Sell Stock     |
+
+## **Phase 2: Strings – Days 8–14**
+
+[AlgoDaily - Software interview prep made easy. Coding Interview Questions.]
+(https://images.openai.com/static-rsc-4/IGwVEvQo0TkzXIaM21NFKLCy9FKbGcRbzbXJwnGHf0zmS-uMISoB99V_DcHJ9N_k8UFXR4NmRFB7DZg1G5gTB3QCidXKgYcc0hD854SU1BEYzsMuoCRSATS_eWFXYjOiAlg2o5SP7Tua-D93ynfxRnTQse3Ev0VNU9N-RxegbdU?purpose=inline)
+
+[algodaily.com](https://algodaily.com/lessons/strings-and-string-operations?utm_source=chatgpt.com)
+
+Strings are extremely important for Python developer assessments.
+
+| Day | Pattern / Topic               | Programs       |
+| --- | ----------------------------- | -------------- |
+| 8   | String Basics                 | 28–32          |
+| 9   | String Reversal & Palindrome  | 33–37          |
+| 10  | Frequency Counting            | 38–42          |
+| 11  | Anagram & Hashing             | 43–47          |
+| 12  | Substrings                    | 48–52          |
+| 13  | Two Pointers / Sliding Window | 53–57          |
+| 14  | String Revision               | Mixed problems |
+
+**Complete string problem list**
+
+| No. | Problem                                        |
+| --- | ---------------------------------------------- |
+| 28  | Find String Length Without len()               |
+| 29  | Count Vowels and Consonants                    |
+| 30  | Count Uppercase and Lowercase                  |
+| 31  | Count Digits, Alphabets and Special Characters |
+| 32  | Remove Spaces from String                      |
+| 33  | Reverse a String                               |
+| 34  | Check Palindrome String                        |
+| 35  | Reverse Each Word                              |
+| 36  | Reverse Word Order                             |
+| 37  | Find Longest Word                              |
+| 38  | Character Frequency                            |
+| 39  | Find First Non-Repeating Character             |
+| 40  | Find First Repeating Character                 |
+| 41  | Remove Duplicate Characters                    |
+| 42  | Find Maximum Occurring Character               |
+| 43  | Check Anagram                                  |
+| 44  | Group Anagrams                                 |
+| 45  | Check String Rotation                          |
+| 46  | Compare Two Strings                            |
+| 47  | Check Isomorphic Strings                       |
+| 48  | Find All Substrings                            |
+| 49  | Longest Common Prefix                          |
+| 50  | Longest Common Substring                       |
+| 51  | Longest Palindromic Substring                  |
+| 52  | Count Palindromic Substrings                   |
+| 53  | Longest Substring Without Repeating Characters |
+| 54  | Longest Repeating Character Replacement        |
+| 55  | Valid Palindrome (Two Pointers)                |
+| 56  | String Compression                             |
+| 57  | Minimum Window Substring                       |
+
+## **Phase 3: Hashing – Days 15–17**
+
+Hashing helps solve problems efficiently using dictionaries and sets.
+
+| Day | Programs                                                          |
+| --- | ----------------------------------------------------------------- |
+| 15  | Two Sum using Dictionary, Frequency Map, Duplicate Detection      |
+| 16  | Intersection, Union, Group Anagrams, Longest Consecutive Sequence |
+| 17  | Subarray Sum Equals K, Top K Frequent Elements, Happy Number      |
+
+## **Phase 4: Two Pointers – Days 18–20**
+
+[LeetCode was HARD until I Learned these 15 Patterns](https://images.openai.com/static-rsc-4/HYzN4cNGQf_bQFkem8P2HZDUV0ZCvyNuv6pHDzKizvOe-7icVBQtLuYBVJwnJYjdEc6laQujK0IJr9JHJLJsTA_C4hy6OZpcnswvxpYJFmMR6uE1mi2hAiQcrcH66OgKuNz_98Hw83658bwfRM_RzDTkkz4n4ZgeKqWnJ9OQlcU?purpose=inline)
+
+[blog.algomaster.io](https://blog.algomaster.io/p/15-leetcode-patterns?utm_source=chatgpt.com)
+
+| Day | Programs                                                  |
+| --- | --------------------------------------------------------- |
+| 18  | Pair Sum in Sorted Array, Reverse Array, Valid Palindrome |
+| 19  | Three Sum, Container With Most Water, Remove Duplicates   |
+| 20  | Sort Colors, Trapping Rain Water, Four Sum                |
+
+## **Phase 5: Sliding Window – Days 21–23**
+
+[Problem Solving Patterns: Sliding Window, Made Simple | by Ray Silvers | Medium](https://images.openai.com/static-rsc-4/ek-pwQo__GVn1an1CMqWKVViTySAqylSkGiggFs3Km2HwNXhE7q6hXuX8zIgmQAur9ru8oKQ-zvgcEhM4wf-HesC6mIo7QSNxnXre6vNIORS9wYyURpbw9nGxLH-cCbQohlHpkCSLNcxWwEqGfIjQpxPwmnMa6OTBVqNNKiB2fE?purpose=inline)
+
+[medium.com](https://medium.com/%40raysilvers/problem-solving-patterns-sliding-window-made-simple-909dc4d67c47?utm_source=chatgpt.com)
+
+| Day | Programs                                                                    |
+| --- | --------------------------------------------------------------------------- |
+| 21  | Maximum Sum Subarray of Size K, Average of Subarrays                        |
+| 22  | Longest Substring Without Repeating Characters, Longest Subarray with Sum K |
+| 23  | Minimum Window Substring, Minimum Size Subarray Sum, Permutation in String  |
+
+## **Phase 6: Prefix Sum – Days 24–25**
+
+| Day | Programs                                                      |
+| --- | ------------------------------------------------------------- |
+| 24  | Prefix Sum, Suffix Sum, Range Sum Query                       |
+| 25  | Equilibrium Index, Product Except Self, Subarray Sum Equals K |
+
+## **Phase 7: Binary Search – Days 26–28**
+
+[알고리즘 - 이진 탐색(이분 탐색)](https://images.openai.com/static-rsc-4/A8OfYPpOZ54XLphf8A19Txq8zCiQ2I4pFSpshS47J6LO9lfxzPfy7fTlPqtQ0VejnR1JK2vPnP71MZLpAFjUrnc1W7uIaSnIRWczwoUaQqOABPcj9fN0N0qb3earCVdarr72R_fKY-MXYE3wJr_JpmAtfqPO4rMAbtuhOxgVREU?purpose=inline)
+
+[mozartnt.tistory.com](https://mozartnt.tistory.com/34?utm_source=chatgpt.com)
+
+| Day | Programs                                                          |
+| --- | ----------------------------------------------------------------- |
+| 26  | Binary Search, First and Last Position, Search Insert Position    |
+| 27  | Search in Rotated Sorted Array, Find Minimum in Rotated Array     |
+| 28  | Square Root using Binary Search, Peak Element, Search a 2D Matrix |
+
+## **Phase 8: Sorting – Days 29–31**
+
+| Day | Programs                                               |
+| --- | ------------------------------------------------------ |
+| 29  | Bubble Sort, Selection Sort, Insertion Sort            |
+| 30  | Merge Sort, Quick Sort                                 |
+| 31  | Sort 0s, 1s and 2s, Merge Intervals, Sort by Frequency |
+
+## **Phase 9: Recursion – Days 32–34**
+
+[Recursion Explained — How recursion works in Programming? | EnjoyAlgorithms](https://images.openai.com/static-rsc-4/6qfUBqjX884Vcz4VwumyE4j12NVBkF3enTDab-YPrlRbHTrwdIPS5Bnixm5y2FB-1GabOTkBY7V2vhLJpplKjUP573QhfPBg1XOf1PnHbRsrnWPPiLK_zggSYChwn4OokSCQVeJb1zljOjEeoGsLgvqlqFDVH0LWMhPF4zeDzwM?purpose=inline)
+
+[medium.com](https://medium.com/enjoy-algorithm/recursion-explained-how-recursion-works-in-programming-b22113006fe3?utm_source=chatgpt.com)
+
+| Day | Programs                                         |
+| --- | ------------------------------------------------ |
+| 32  | Factorial, Sum of N Numbers, Fibonacci           |
+| 33  | Reverse String, Palindrome, Sum of Digits        |
+| 34  | Power Function, Recursive Binary Search, Subsets |
+
+## **Phase 10: Backtracking – Days 35–37**
+
+| Day | Programs                                        |
+| --- | ----------------------------------------------- |
+| 35  | Generate All Subsets, Generate All Subsequences |
+| 36  | Permutations, Combination Sum                   |
+| 37  | N-Queens, Rat in a Maze, Word Search            |
+
+## **Phase 11: Linked List – Days 38–41**
+
+[Complete DSA Series Part 6: Linked Lists - Wasil Zafar](https://images.openai.com/static-rsc-4/YvxxakfDZJY1nhQZ-X76yZwS4Fvuq4mnwEQ8ndbTQkDtfoyroGHZ_zosc2sr2T_ALx57_N4IPC2b3BGXYPXRdfuKgO-s79jQfmAvHoTzkkJfoOBrabYyZxRI6imFho1CuTvHA1vHFJ5i06JUHS8nVEREkHUlUCYg-2SQAIp6E0Y?purpose=inline)
+
+[wasilzafar.com](https://www.wasilzafar.com/pages/series/data-structures/dsa-linked-lists-guide.html?utm_source=chatgpt.com)
+
+| Day | Programs                                                              |
+| --- | --------------------------------------------------------------------- |
+| 38  | Create Linked List, Traverse, Insert at Beginning/End                 |
+| 39  | Delete Node, Search Element, Find Length                              |
+| 40  | Reverse Linked List, Find Middle Node, Find Nth Node                  |
+| 41  | Detect Cycle, Remove Cycle, Merge Two Sorted Lists, Find Intersection |
+
+## **Phase 12: Stack – Days 42–43**
+
+[Complete DSA Series Part 7: Stack - Wasil Zafar](https://images.openai.com/static-rsc-4/Xzi0jhBw2VYnq69FEwb14wW-cM_iHHhS2jF69IScOpKvcNWzNqqM_M-Ar1KLMW4hJUnHG-LNHmVHvswGNBoQY8lW_OwMy6dMjeeRHfLW66S7NEcFyPRYznKz4gPYHYSW3Dcm6DPU2bM4VJsvSzjhCv-g1cLxhNO7RfqdN3IUSMc?purpose=inline)
+
+[wasilzafar.com](https://www.wasilzafar.com/pages/series/data-structures/dsa-stack-applications.html?utm_source=chatgpt.com)
+
+| Day | Programs                                                                         |
+| --- | -------------------------------------------------------------------------------- |
+| 42  | Implement Stack, Push, Pop, Peek, Valid Parentheses                              |
+| 43  | Next Greater Element, Min Stack, Evaluate Postfix Expression, Daily Temperatures |
+
+## **Phase 13: Queue – Days 44–45**
+
+[Complete DSA Series Part 8: Queue - Wasil Zafar](https://images.openai.com/static-rsc-4/UzbgUG0OECeVwOYzWMPtBDTqj1CmsdRapN1h0bBIvivz9zCJykWeJep6Np_EDF8vW87V_-z7FHNr7QQTd2su0HbMk19VneUdEFr32GtyN5NAqdbzPDLDGedMHZ0Vm8CAl04Yl3BbVley5ylPi5PmusdG_n4HyhtXi-4m6-6T4XY?purpose=inline)
+
+[wasilzafar.com](https://www.wasilzafar.com/pages/series/data-structures/dsa-queue-implementations.html?utm_source=chatgpt.com)
+
+| Day | Programs                                                                        |
+| --- | ------------------------------------------------------------------------------- |
+| 44  | Implement Queue, Circular Queue, Deque                                          |
+| 45  | Queue using Stacks, Stack using Queues, First Non-Repeating Character in Stream |
+
+## **Phase 14: Trees – Days 46–50**
+
+[BST và AVL Tree: Hướng dẫn Chi tiết với Python Code \[2026\]](https://images.openai.com/static-rsc-4/tXh_GQmp6S3IOnyQli82TDxTGcMn_dxljzCvO_zsRGRDLyp58buZO3UsvX7n19FUa3nMDiiPODEZkkuUoHTRY5bh1wjwXS1gRyNO0Hwln3SR5_eyyAHF2mkYp9nJ4B8AJ4S-3dEathSH73eTGX6eMQusRb5T81nB65e0MBHI7rM?purpose=inline)
+
+[omelet.tech](https://www.omelet.tech/bst-avl-tree-zero-to-hero/?utm_source=chatgpt.com)
+
+| Day | Programs                                            |
+| --- | --------------------------------------------------- |
+| 46  | Create Binary Tree, Inorder Traversal               |
+| 47  | Preorder, Postorder, Level Order Traversal          |
+| 48  | Height, Maximum Depth, Count Nodes, Leaf Nodes      |
+| 49  | Check Balanced Tree, Diameter of Binary Tree        |
+| 50  | Validate BST, Lowest Common Ancestor, Search in BST |
+
+## **Phase 15: Graphs – Days 51–54**
+
+[BFS vs DFS: Graph Traversal Showdown! - Euron Daily | Euron Community](https://images.openai.com/static-rsc-4/1_NDQ43asocnubU2JKShwkhNs1bdiTKsG01NRV1XuOEpfCeDjljcSVdoIs_kQviYNjS1jXJ7hHicJDdXaVw4lkx8020ewvUp1wIvKXksMJ-hvQTGZ6c3Bo46uhNrumSjXks0gCvpibFiqJ_4rW-F1ZpChTTVljeu7_k2BXhMGbY?purpose=inline)
+
+[euron.one](https://euron.one/community/posts/d05ab5ee-a69e-4729-8513-c5c55615b11b?utm_source=chatgpt.com)
+
+| Day | Programs                                                 |
+| --- | -------------------------------------------------------- |
+| 51  | Graph Representation, Adjacency List, Adjacency Matrix   |
+| 52  | BFS, DFS                                                 |
+| 53  | Detect Cycle, Number of Connected Components             |
+| 54  | Shortest Path, Dijkstra's Algorithm, Topological Sorting |
+
+## **Phase 16: Dynamic Programming – Days 55–60**
+
+[Programming Blog & Tutorials - Unwired Learning](https://images.openai.com/static-rsc-4/HQ0GVA5ZSOj47RX7UmbznxLt7iQVG5-XXxC69hxhmFkpyHXkl6eEW4C5QMA2eT-omgvacIziokLVENQhdzObirj4nDML1linC5a7oydc99ZBHymg5Pba19ns-l-H-fRh-xxC-4pIZa9_32ceG_q1Gqs902IM161IWNMWcC6tsKc?purpose=inline)
+
+[unwiredlearning.com](https://unwiredlearning.com/blog/dp-memoization-tabulation?utm_source=chatgpt.com)
+
+| Day | Programs                                                   |
+| --- | ---------------------------------------------------------- |
+| 55  | Fibonacci using Memoization and Tabulation                 |
+| 56  | Climbing Stairs, House Robber                              |
+| 57  | 0/1 Knapsack, Coin Change                                  |
+| 58  | Longest Common Subsequence, Longest Increasing Subsequence |
+| 59  | Minimum Path Sum, Unique Paths                             |
+| 60  | DP Revision and Mixed Problems                             |
+
+# **2. Time and Space Complexity – must learn alongside every problem**
+
+We will calculate these for every program, not just write the code.
+
+| Complexity | Meaning      | Example                 |
+| ---------- | ------------ | ----------------------- |
+| O(1)       | Constant     | Access `arr[0]`         |
+| O(log n)   | Logarithmic  | Binary Search           |
+| O(n)       | Linear       | Linear Search           |
+| O(n log n) | Linearithmic | Merge Sort              |
+| O(n²)      | Quadratic    | Nested loops            |
+| O(2ⁿ)      | Exponential  | Generating subsets      |
+| O(n!)      | Factorial    | Generating permutations |
+
+## **Complexity reference for our first two phases**
+
+Let `n` = number of elements or characters.
+
+### **Arrays – Days 1–7**
+
+| Problem                         | Time                               | Auxiliary Space         |
+| ------------------------------- | ---------------------------------- | ----------------------- |
+| Maximum / Minimum               | O(n)                               | O(1)                    |
+| Second Largest                  | O(n)                               | O(1)                    |
+| Reverse Array (two pointers)    | O(n)                               | O(1)                    |
+| Sum / Average                   | O(n)                               | O(1)                    |
+| Check Sorted                    | O(n)                               | O(1)                    |
+| Linear Search                   | O(n)                               | O(1)                    |
+| Binary Search                   | O(log n)                           | O(1) iterative          |
+| First / Last Occurrence         | O(log n)                           | O(1)                    |
+| Count Occurrences               | O(n)                               | O(1)                    |
+| Missing Number (sum formula)    | O(n)                               | O(1)                    |
+| Two Sum (hash map)              | O(n) average                       | O(n)                    |
+| Move Zeros                      | O(n)                               | O(1)                    |
+| Remove Duplicates (sorted)      | O(n)                               | O(1)                    |
+| Rotate Array (reversal method)  | O(n)                               | O(1)                    |
+| Merge Sorted Arrays             | O(n + m)                           | O(n + m) for new output |
+| Find Duplicates (set)           | O(n) average                       | O(n)                    |
+| Frequency Count (dictionary)    | O(n) average                       | O(n)                    |
+| Majority Element (Boyer-Moore)  | O(n)                               | O(1)                    |
+| Intersection (sets)             | O(n + m) average                   | O(n + m)                |
+| Union (sets)                    | O(n + m) average                   | O(n + m)                |
+| Prefix Sum                      | O(n)                               | O(n)                    |
+| Range Sum Query                 | O(1) per query after preprocessing | O(n)                    |
+| Subarray Sum Equals K           | O(n) average                       | O(n)                    |
+| Equilibrium Index               | O(n)                               | O(1)                    |
+| Kadane's Algorithm              | O(n)                               | O(1)                    |
+| Maximum Product Subarray        | O(n)                               | O(1)                    |
+| Best Time to Buy and Sell Stock | O(n)                               | O(1)                    |
+
+### **Strings – Days 8–14**
+
+| Problem                             | Time                           | Auxiliary Space               |
+| ----------------------------------- | ------------------------------ | ----------------------------- |
+| Length without len()                | O(n)                           | O(1)                          |
+| Count Vowels / Consonants           | O(n)                           | O(1)                          |
+| Uppercase / Lowercase Count         | O(n)                           | O(1)                          |
+| Count Digits / Alphabets            | O(n)                           | O(1)                          |
+| Remove Spaces                       | O(n)                           | O(n)                          |
+| Reverse String                      | O(n)                           | O(n) in Python                |
+| Palindrome Check                    | O(n)                           | O(1)                          |
+| Reverse Each Word                   | O(n)                           | O(n)                          |
+| Reverse Word Order                  | O(n)                           | O(n)                          |
+| Find Longest Word                   | O(n)                           | O(1) auxiliary                |
+| Character Frequency                 | O(n) average                   | O(k)                          |
+| First Non-Repeating Character       | O(n) average                   | O(k)                          |
+| First Repeating Character           | O(n) average                   | O(k)                          |
+| Remove Duplicate Characters         | O(n) average                   | O(k)                          |
+| Maximum Occurring Character         | O(n) average                   | O(k)                          |
+| Anagram Check                       | O(n) average                   | O(k)                          |
+| Group Anagrams                      | O(n × k log k)                 | O(n × k)                      |
+| String Rotation                     | O(n)                           | O(n)                          |
+| Compare Two Strings                 | O(n)                           | O(1)                          |
+| Isomorphic Strings                  | O(n)                           | O(k)                          |
+| Generate All Substrings             | O(n³) including copying output | O(n³) output                  |
+| Longest Common Prefix               | O(S)                           | O(1) auxiliary                |
+| Longest Common Substring            | O(n × m)                       | O(min(n,m)) with optimized DP |
+| Longest Palindromic Substring       | O(n²)                          | O(1)                          |
+| Count Palindromic Substrings        | O(n²)                          | O(1)                          |
+| Longest Substring Without Repeating | O(n) average                   | O(k)                          |
+| Character Replacement               | O(n)                           | O(k)                          |
+| Valid Palindrome                    | O(n)                           | O(1)                          |
+| String Compression                  | O(n)                           | O(n) for returned string      |
+| Minimum Window Substring            | O(n + m)                       | O(k)                          |
+
+**Important:** These are standard optimized approaches. Python's `sorted()`, slicing, sets, dictionaries and output construction affect space complexity. We will discuss those details while coding.
+
+# **3. Complexity reference for remaining DSA patterns**
+
+ఈ sectionలో మనం తర్వాత నేర్చుకునే problems యొక్క standard complexity targets ఇస్తున్నాను. `n` = input size, `V` = vertices, `E` = edges.
+
+| Pattern / Problem                  | Time Complexity             | Auxiliary Space        |
+| ---------------------------------- | --------------------------- | ---------------------- |
+| Hash map frequency                 | O(n) average                | O(n)                   |
+| Longest Consecutive Sequence       | O(n) average                | O(n)                   |
+| Top K Frequent (heap)              | O(n + k log n)              | O(n)                   |
+| Three Sum                          | O(n²)                       | O(n) including sorting |
+| Container With Most Water          | O(n)                        | O(1)                   |
+| Trapping Rain Water (two pointers) | O(n)                        | O(1)                   |
+| Sliding Window Fixed Size          | O(n)                        | O(1)                   |
+| Sliding Window Variable Size       | O(n)                        | O(k) if frequency map  |
+| Product Except Self                | O(n)                        | O(1) excluding output  |
+| Bubble Sort                        | O(n²)                       | O(1)                   |
+| Selection Sort                     | O(n²)                       | O(1)                   |
+| Insertion Sort                     | O(n²) worst                 | O(1)                   |
+| Merge Sort                         | O(n log n)                  | O(n)                   |
+| Quick Sort                         | O(n log n) average          | O(log n) average stack |
+| Recursive Factorial                | O(n)                        | O(n) stack             |
+| Recursive Fibonacci                | O(2ⁿ)                       | O(n) stack             |
+| Recursive Binary Search            | O(log n)                    | O(log n) stack         |
+| Subsets                            | O(n × 2ⁿ)                   | O(n) auxiliary         |
+| Permutations                       | O(n × n!)                   | O(n) auxiliary         |
+| Combination Sum                    | Exponential                 | O(n) recursion depth   |
+| N-Queens                           | O(n!) upper bound           | O(n²) including board  |
+| Linked List Traversal              | O(n)                        | O(1)                   |
+| Linked List Insert at Head         | O(1)                        | O(1)                   |
+| Linked List Insert at Tail         | O(n) without tail pointer   | O(1)                   |
+| Reverse Linked List                | O(n)                        | O(1) iterative         |
+| Find Middle Node                   | O(n)                        | O(1)                   |
+| Detect Cycle                       | O(n)                        | O(1)                   |
+| Merge Sorted Linked Lists          | O(n + m)                    | O(1) iterative         |
+| Stack Push / Pop                   | O(1)                        | O(1) per operation     |
+| Valid Parentheses                  | O(n)                        | O(n)                   |
+| Next Greater Element               | O(n)                        | O(n)                   |
+| Queue Enqueue / Dequeue            | O(1)                        | O(1) per operation     |
+| BFS / DFS                          | O(V + E)                    | O(V)                   |
+| Binary Tree Traversal              | O(n)                        | O(h) DFS auxiliary     |
+| Tree Height                        | O(n)                        | O(h)                   |
+| Diameter of Binary Tree            | O(n)                        | O(h)                   |
+| Validate BST                       | O(n)                        | O(h)                   |
+| Dijkstra (binary heap)             | O((V + E) log V)            | O(V + E)               |
+| Topological Sort                   | O(V + E)                    | O(V)                   |
+| Fibonacci DP                       | O(n)                        | O(1) optimized         |
+| Climbing Stairs                    | O(n)                        | O(1) optimized         |
+| House Robber                       | O(n)                        | O(1) optimized         |
+| 0/1 Knapsack                       | O(n × W)                    | O(W) optimized         |
+| Coin Change                        | O(amount × number of coins) | O(amount)              |
+| LCS                                | O(n × m)                    | O(n × m) standard      |
+| LIS                                | O(n log n)                  | O(n)                   |
+| Unique Paths                       | O(m × n)                    | O(n) optimized         |
+| Minimum Path Sum                   | O(m × n)                    | O(n) optimized         |
+
+Note: For recursion, trees and backtracking, auxiliary space includes the recursion stack. Output space is excluded unless stated.
+
+# **4. How we will study every single day**
+
+నీకు నేను ఒక fixed training method follow చేయిస్తాను.
+
+**Daily 4-hour DSA routine**
+
+## **60**
+
+**1. Concept learning**
+
+Understand the pattern and its purpose
+
+## **60**
+
+**2. Code along**
+
+Learn 2–3 programs step by step
+
+## **60**
+
+**3. Independent practice**
+
+Solve 3–5 problems without looking at solutions
+
+## **60**
+
+**4. Complexity + revision + test**
+
+Dry run, optimize and solve MCQs
+
+Time values are minutes. Adjust the pace if a concept needs more practice.
+
+# **5. Our problem-solving method**
+
+For every problem, I will teach you in this order:
+
+1. Problem statement – What are we asked to find?
+2. Input and expected output.
+3. Brute force approach.
+4. Optimized approach.
+5. Python code.
+6. Dry run with each iteration.
+7. Time complexity.
+8. Space complexity.
+9. Interview-style follow-up question.
+10. Independent practice test.
+
+I won't directly give you solutions to memorize. First, I'll give you a chance to think and write the logic.
+
+# **6. Let's start – Day 1**
+
+Day 1 · Arrays Fundamentals
+
+Today's five problems:
+
+| No. | Problem                  | Target complexity |
+| --- | ------------------------ | ----------------- |
+| 1   | Find Maximum Element     | O(n), O(1)        |
+| 2   | Find Minimum Element     | O(n), O(1)        |
+| 3   | Find Second Largest      | O(n), O(1)        |
+| 4   | Reverse an Array         | O(n), O(1)        |
+| 5   | Check if Array is Sorted | O(n), O(1)        |
+

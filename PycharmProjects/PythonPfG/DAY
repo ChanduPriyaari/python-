@@ -1,0 +1,363 @@
+*మన target: December 6 నాటికి కనీసం ఒక coding problem independently solve చేయగలగాలి.
+For our target, preparation priority is:
+
+| Priority | Topic                     | Importance |
+| -------- | ------------------------- | ---------- |
+| 1        | Arrays                    | Very high  |
+| 2        | Strings                   | Very high  |
+| 3        | Dictionaries & Sets       | Very high  |
+| 4        | Two Pointers              | Very high  |
+| 5        | Sliding Window            | High       |
+| 6        | Prefix Sum                | High       |
+| 7        | Sorting & Searching       | High       |
+| 8        | Greedy                    | High       |
+| 9        | Recursion                 | Medium     |
+| 10       | Basic Dynamic Programming | Medium     |
+| 11       | Stack & Queue             | Medium     |
+| 12       | Trees & Graphs            | Advanced   |
+
+**My recommendation:** First become very strong in the first seven topics.
+ These will give you the best foundation for attempting an easier coding question and progressing to medium problems.
+
+# **2. Your exact 17-day timetable**
+
+November 19 – December 5
+
+This is the timetable I want you to follow. Don't independently choose random programs from YouTube or other websites. Follow this sequence.
+
+| Date   | Day | What to study                    | Questions |
+| ------ | --- | -------------------------------- | --------- |
+| Nov 19 | 1   | Arrays – Fundamentals            | 5         |
+| Nov 20 | 2   | Arrays – Searching               | 5         |
+| Nov 21 | 3   | Two Pointers                     | 5         |
+| Nov 22 | 4   | Strings – Fundamentals           | 5         |
+| Nov 23 | 5   | Strings – Frequency & Palindrome | 5         |
+| Nov 24 | 6   | Hashing – Dictionary & Set       | 5         |
+| Nov 25 | 7   | Prefix Sum                       | 4         |
+| Nov 26 | 8   | Sliding Window                   | 5         |
+| Nov 27 | 9   | Sorting Algorithms               | 4         |
+| Nov 28 | 10  | Binary Search                    | 5         |
+| Nov 29 | 11  | Mathematics & Greedy             | 5         |
+| Nov 30 | 12  | Recursion                        | 4         |
+| Dec 1  | 13  | Stack & Queue                    | 5         |
+| Dec 2  | 14  | Basic Dynamic Programming        | 4         |
+| Dec 3  | 15  | Mixed Array, String & DSA        | 6         |
+| Dec 4  | 16  | Full Coding Mock Test            | 3         |
+| Dec 5  | 17  | Final Revision & Mock            | 3         |
+
+Total: approximately 79 focused problem attempts, including revision and mock questions.
+# **3. Exactly what to practice each day**
+These are your daily assignments. Save this section and tick off each problem after solving it.
+**DAY 1 – NOV 19**
+Today's target
+
+**Pattern: Array Fundamentals**
+
+1. Find maximum and minimum in an array.
+2. Find second largest element without `max()` or sorting.
+3. Reverse an array without using `reverse()`.
+4. Check whether an array is sorted.
+5. Move all zeros to the end.
+
+**Complexity target:** O(n) time and O(1) auxiliary space for these optimized solutions.
+**DAY 2 – NOV 20**
+
+Searching
+
+1. Linear Search.
+2. Binary Search.
+3. Find first occurrence of an element.
+4. Find last occurrence of an element.
+5. Find missing number from 1 to N.
+
+**Complexity target:** O(n), O(log n).
+**DAY 3 – NOV 21**
+
+Two Pointers
+
+1. Two Sum in a sorted array.
+2. Reverse an array using two pointers.
+3. Check palindrome using two pointers.
+4. Remove duplicates from sorted array.
+5. Merge two sorted arrays.
+
+**Complexity target:** O(n) or O(n + m).
+
+**DAY 4 – NOV 22**
+
+String Fundamentals
+
+1. Reverse a string without slicing.
+2. Check palindrome.
+3. Reverse each word.
+4. Reverse the order of words.
+5. Find the longest word in a sentence.
+
+**Complexity target:** O(n).
+
+**DAY 5 – NOV 23**
+
+String Frequency
+
+1. Count vowels and consonants.
+2. Count frequency of each character.
+3. Find first non-repeating character.
+4. Find first repeating character.
+5. Check whether two strings are anagrams.
+
+**Complexity target:** O(n) average.
+
+**DAY 6 – NOV 24**
+
+Hashing
+
+1. Find duplicates using a set.
+2. Find frequency of elements using dictionary.
+3. Two Sum using dictionary.
+4. Find intersection of two arrays.
+5. Find the majority element.
+
+**Complexity target:** O(n) average.
+
+**DAY 7 – NOV 25**
+
+Prefix Sum
+
+1. Create prefix sum array.
+2. Find range sum between two indices.
+3. Find equilibrium index.
+4. Find subarray sum equal to K.
+
+**Complexity target:** O(n) preprocessing or O(n) average for subarray sum.
+
+**DAY 8 – NOV 26**
+
+Sliding Window
+
+1. Maximum sum of subarray of size K.
+2. Average of every window of size K.
+3. Longest substring without repeating characters.
+4. Minimum size subarray sum.
+5. Maximum number of consecutive ones.
+
+**Complexity target:** O(n).
+
+**DAY 9 – NOV 27**
+
+Sorting
+
+1. Bubble Sort.
+2. Selection Sort.
+3. Insertion Sort.
+4. Sort 0s, 1s and 2s without using sort().
+
+**Complexity target:** Understand O(n²) and O(n) solutions.
+
+**DAY 10 – NOV 28**
+
+Binary Search
+
+1. Binary Search.
+2. Find square root using binary search.
+3. Search in rotated sorted array.
+4. Find peak element.
+5. Find first and last position of an element.
+
+**Complexity target:** O(log n) wherever applicable.
+
+**DAY 11 – NOV 29**
+
+Mathematics + Greedy
+
+1. Prime numbers in a range.
+2. GCD and LCM.
+3. Find factors of a number.
+4. Minimum number of coins (standard denominations).
+5. Minimum platforms / meeting interval selection.
+
+**Complexity target:** O(√n) for optimized primality testing; understand greedy decisions.
+
+**DAY 12 – NOV 30**
+
+Recursion
+
+1. Factorial using recursion.
+2. Fibonacci using recursion.
+3. Reverse a string using recursion.
+4. Generate all subsets of an array.
+
+**Complexity target:** Understand recursion stack and exponential complexity.
+
+**DAY 13 – DEC 1**
+
+Stack + Queue
+
+1. Implement Stack.
+2. Implement Queue.
+3. Valid Parentheses.
+4. Next Greater Element.
+5. Reverse a Queue.
+
+**Complexity target:** O(1) per basic stack/queue operation; O(n) for the traversal problems.
+
+**DAY 14 – DEC 2**
+
+Dynamic Programming Basics
+
+1. Fibonacci using DP.
+2. Climbing Stairs.
+3. House Robber.
+4. Minimum Coin Change.
+
+**Complexity target:** Understand memoization, tabulation and O(n) / O(amount × coins).
+
+**DAY 15 – DEC 3**
+
+Mixed Coding Practice
+
+1. Two Sum.
+2. Longest substring without repeating characters.
+3. Maximum subarray sum.
+4. Subarray sum equals K.
+5. Merge two sorted arrays.
+6. Best Time to Buy and Sell Stock.
+
+**Goal:** Identify the correct pattern without hints.
+
+**DAY 16 – DEC 4**
+
+Mock Assessment
+
+1. One easy array problem.
+2. One medium string/hashmap problem.
+3. One medium sliding-window or prefix-sum problem.
+
+**Time limit: 3 hours.**
+
+No hints, no Google, no solution videos.
+
+**DAY 17 – DEC 5**
+
+Final Revision
+
+1. One array problem.
+2. One string problem.
+3. One mixed medium problem.
+
+Revise complexity, Python syntax, edge cases, input/output handling and previous mistakes. Avoid learning difficult new topics today.
+
+# **4. Your daily 6-hour timetable**
+
+Follow these same time allocations every day.
+
+| Study duration | Activity                                        |
+| -------------- | ----------------------------------------------- |
+| 1 hour         | Learn today's DSA pattern                       |
+| 1 hour         | Understand 2 programs with dry runs             |
+| 2 hours        | Independently solve today's problems            |
+| 1 hour         | Solve one Infosys-style unseen problem          |
+| 1 hour         | Time/space complexity, Python revision and test |
+
+**One rule:** If you cannot solve a problem,
+spend 20–30 minutes attempting it before seeing the solution.
+Then close the solution and rewrite the code independently.
+
+# **5. How I will teach you**
+
+Every day, I want you to follow this learning format:
+
+**Example: Day 1 – Find Second Largest**
+
+Input:
+
+```
+arr = [10, 20, 5, 40, 30]
+```
+
+Expected output:
+
+```
+30
+```
+
+We will learn:
+
+1. Brute force approach – sorting.
+2. Optimized approach – one loop.
+3. Python implementation.
+4. Dry run for every iteration.
+5. Time complexity – O(n).
+6. Auxiliary space – O(1).
+7. Edge cases – duplicates, negative values, all equal values.
+
+Then I will give you another question without showing the solution.
+# **6. Your daily progress tracker**
+Use this to track your progress. Tick each day after completing its assignments.
+**Preparation progress**
+# **0/17**
+
+Nov 19 – Array Fundamentals
+Nov 20 – Searching
+Nov 21 – Two Pointers
+Nov 22 – String Fundamentals
+Nov 23 – String Frequency
+Nov 24 – Hashing
+Nov 25 – Prefix Sum
+Nov 26 – Sliding Window
+Nov 27 – Sorting
+Nov 28 – Binary Search
+Nov 29 – Mathematics & Greedy
+Nov 30 – Recursion
+Dec 1 – Stack & Queue
+Dec 2 – Dynamic Programming
+Dec 3 – Mixed Practice
+Dec 4 – Mock Assessment
+Dec 5 – Final Revision
+
+&#x20;Copy progress
+
+# **7. Three rules for your Infosys preparation**
+
+1. **Don't memorize code.** Understand why each line executes.
+2. **Don't skip easy problems.** Your first target is to secure all possible test cases in at least one question.
+3. **Practice hidden test cases.** Test empty inputs, duplicates, negative numbers, large values and boundary conditions.
+
+For additional practice, use the [Infosys SP/DSE practice questions](https://prepinsta.com/infosys-sp-and-dse/?utm_source=chatgpt.com) and [Striver's DSA practice sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2?utm_source=chatgpt.com). Don't try to complete the entire sheets before December 6.
+
+## **Now, let's begin today's training.**
+I don't want you to spend another day wondering what to study.
+DAY 1 – START NOW
+
+# **Arrays – Fundamentals**
+
+Today's five problems:
+
+1. Maximum and Minimum.
+2. Second Largest.
+3. Reverse Array.
+4. Check Sorted Array.
+5. Move Zeros to End.
+
+**Your first assignment:**
+
+```
+arr = [10, 25, 5, 40, 15]
+```
+
+Find the second largest element without using `sort()` or `max()`.
+
+**Your constraints:**
+- Only one `for` loop.
+- O(n) time complexity.
+- O(1) auxiliary space.
+- Don't copy code from anywhere.
+
+**Expected output: 25**
+
+Start Day 1 – Teach me step by step
+
+Chandu, remember one thing: **We are not preparing to solve 100 problems by December 6.
+We are preparing to recognize a problem, identify its pattern and write a correct solution independently.**
+
+One problem solved completely is more valuable than ten solutions copied.
+ Let's work towards that first success. 💪
